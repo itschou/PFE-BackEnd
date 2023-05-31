@@ -5,7 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/itschou/PFE-FrontEnd)](https://github.com/itschou/PFE-FrontEnd/network)
 [![GitHub issues](https://img.shields.io/github/issues/itschou/PFE-FrontEnd)](https://github.com/itschou/PFE-FrontEnd/issues)
 
-Le projet **Nom du Projet** est un site web basé sur ReactJS qui consomme une API Laravel 10. Ce site permet aux entreprises de chercher des fournisseurs pour les produits ou services qu'ils souhaitent acquérir. Il permet également aux fournisseurs de s'identifier, d'avoir des clients et de gérer leurs commandes.
+Le projet est un site web basé sur ReactJS qui consomme une API Laravel 10. Ce site permet aux entreprises de chercher des fournisseurs pour les produits ou services qu'ils souhaitent acquérir. Il permet également aux fournisseurs de s'identifier, d'avoir des clients et de gérer leurs commandes.
 
 ## Fonctionnalités
 
