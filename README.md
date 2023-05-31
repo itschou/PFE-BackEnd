@@ -1,66 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# (PFE - Laravel 10)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+[![GitHub stars](https://img.shields.io/github/stars/itschou/PFE-FrontEnd)](https://github.com/itschou/PFE-FrontEnd/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/itschou/PFE-FrontEnd)](https://github.com/itschou/PFE-FrontEnd/network)
+[![GitHub issues](https://img.shields.io/github/issues/itschou/PFE-FrontEnd)](https://github.com/itschou/PFE-FrontEnd/issues)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Le projet **Nom du Projet** est un site web basé sur ReactJS qui consomme une API Laravel 10. Ce site permet aux entreprises de chercher des fournisseurs pour les produits ou services qu'ils souhaitent acquérir. Il permet également aux fournisseurs de s'identifier, d'avoir des clients et de gérer leurs commandes.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Fonctionnalités
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Entreprise
 
-## Learning Laravel
+- Filtrer les fournisseurs en utilisant des catégories.
+- Obtenir les informations des fournisseurs pour les contacter.
+- Avoir un contact direct avec les fournisseurs.
+- Accéder aux coordonnées des fournisseurs (adresse, e-mail, téléphone).
+- Voir la disponibilité du stock des fournisseurs.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Fournisseur
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- S'enregistrer en tant que fournisseur.
+- Pouvoir modifier la disponibilité de leur stock directement sur le site.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Admin
 
-## Laravel Sponsors
+- Accepter les nouveaux fournisseurs pour qu'ils apparaissent sur le tableau de bord des entreprises.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Installation
 
-### Premium Partners
+1. Clonez ce dépôt : `git clone https://github.com/itschou/PFE-BackEnd.git`
+2. Accédez au répertoire du projet : `cd PFE-BackEnd`
+3. Installez les dépendances : `composer install`
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Configuration
 
-## Contributing
+1. Renommez le fichier `.env.example` en `.env` et modifiez les valeurs selon votre configuration.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Utilisation
 
-## Code of Conduct
+1. Générez une nouvelle clé d'application : `php artisan key:generate`
+2. Lancez le serveur de développement : `php artisan serve`
+3. Ouvrez votre navigateur et accédez à `http://localhost:8000`
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Contribution
 
-## Security Vulnerabilities
+Les contributions sont les bienvenues ! Voici comment vous pouvez contribuer :
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. Fork le projet.
+2. Créez une branche pour votre fonctionnalité : `git checkout -b ma-nouvelle-fonctionnalite`
+3. Faites vos modifications.
+4. Committez vos changements : `git commit -m "Ajout d'une nouvelle fonctionnalité"`
+5. Poussez la branche : `git push origin ma-nouvelle-fonctionnalite`
+6. Ouvrez une Pull Request.
+
+## Auteurs
+
+- Chou - [Adresse e-mail](mailto:ouwoxpro@gmail.com)
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Ce projet est sous licence MIT. Pour plus d'informations, consultez le fichier [LICENSE](LICENSE).
